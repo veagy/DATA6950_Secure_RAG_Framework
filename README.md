@@ -40,7 +40,6 @@ These threats are countered using a "Sandwich" defense strategy that validates d
 * **Quantization:** 4-bit (via BitsAndBytes)
 * **Dataset:** RealTimeQA (Sorted)
 
----
 
 ## Installation & Setup
 
