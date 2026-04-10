@@ -5,8 +5,6 @@ This project implements a high-security **Retrieval-Augmented Generation (RAG)**
 
 The system utilizes **Llama 3.2 (3B Instruct)** for generation, **FAISS** for vector indexing, and **Cross-Encoders** for high-precision reranking, all optimized with 4-bit quantization for performance on consumer-grade GPUs (T4).
 
-
-
 ---
 
 ## Key Features
@@ -16,7 +14,7 @@ The system utilizes **Llama 3.2 (3B Instruct)** for generation, **FAISS** for ve
 2.  **Context Auditor:** A dedicated LLM-based filter that evaluates retrieved documents for "Indirect Prompt Injection" before they reach the generation stage.
 3.  **Output Verification:** A final validation step that checks the generated response against the context to ensure integrity and prevent "jailbreak" leaks.
 
-### ⚔️ Adversarial Simulation Suite
+###  Adversarial Simulation Suite
 * **Document Injection:** Simulates the insertion of malicious documents into the corpus to manipulate model output.
 * **Retrieval Poisoning:** Demonstrates how "vector-identical" documents can be used to guarantee a malicious Rank-1 result.
 
