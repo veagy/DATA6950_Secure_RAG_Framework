@@ -1,4 +1,4 @@
-# DATA6950_Secure_RAG_Framework
+# Secure RAG Framework
 
 ## Overview
 This framework serves as a security-hardened implementation of Retrieval-Augmented Generation (RAG). While standard RAG systems significantly reduce LLM hallucinations by grounding responses in external data, they introduce a new attack surface: **Data Provenance Vulnerabilities**. If a retriever pulls in a malicious or "poisoned" document, the LLM can be coerced into ignoring system instructions, leaking data, or providing false information.
